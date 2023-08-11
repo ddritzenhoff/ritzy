@@ -13,14 +13,12 @@ h5,
 h6,
 p,
 blockquote,
-pre,
 a,
 abbr,
 acronym,
 address,
 big,
 cite,
-code,
 del,
 dfn,
 em,
@@ -251,4 +249,16 @@ article {
 
 #date-item {
   margin-top: 5px;
+}
+
+/* Code Highlighting */
+pre {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
