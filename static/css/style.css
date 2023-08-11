@@ -251,6 +251,12 @@ article {
   margin-top: 5px;
 }
 
+img {
+  max-width: 50%; /* Ensure the image never exceeds the parent width */
+  height: auto; /* Allow the height to adjust automatically */
+  border-radius: 10px;
+}
+
 /* Code Highlighting */
 pre {
   background-color: #f3f3f3;
