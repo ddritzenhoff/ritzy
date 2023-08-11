@@ -1,9 +1,10 @@
 {{ define "main" }}
-<h2>{{ .Title }}</h2>
-{{ .Content }}
-<ul class="fixed-width">
-    {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<ul>
+    {{ range $index, $element := (where .Site.RegularPages "Type" "in" "posts") }}
+    <li id="li-item" class="fixed-width">
+        <span><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="comhead"></span>
+            <p id="date-item" class="subtext" title="2023-01-20T18:39:41">{{ .Date.Format "January 2, 2006" }}</p>
+    </li>
     {{ end }}
 </ul>
 {{ end }}

@@ -2,7 +2,6 @@
 <ul>
     {{ range $index, $element := (where .Site.RegularPages "Type" "in" "posts") }}
     <li id="li-item" class="fixed-width">
-        <span class="rank">{{ add $index 1 }}.</span>
         <span><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="comhead"></span>
             <p id="date-item" class="subtext" title="2023-01-20T18:39:41">{{ .Date.Format "January 2, 2006" }}</p>
     </li>
