@@ -1,14 +1,14 @@
 name = "ritzy"
 license = "MIT"
 licenselink = "https://github.com/ddritzenhoff/ritzy/blob/main/LICENSE"
-description = "A bare-bones portfolio theme for bloggers"
+description = "A bare-bones theme for bloggers"
 
 homepage = "https://github.com/ddritzenhoff/ritzy"
 
-demosite = "https://dominikritzenhoff.com
+demosite = "https://dominikritzenhoff.com"
 
 tags = ["blog", "minimal", "clean", "personal"]
-features = ["blog", "clean", "minimal", "LaTeX support"]
+features = ["LaTeX support", "fast loading", "author profile"]
 
 [module]
   [module.hugoVersion]
