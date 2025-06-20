@@ -1,6 +1,6 @@
 # ritzy
 
-A minimal blog theme for Hugo.
+A minimal blogging theme for Hugo.
 
 ![ritzy Theme Screenshot](images/screenshot.png)
 
