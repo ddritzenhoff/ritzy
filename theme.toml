@@ -1,11 +1,19 @@
 name = "ritzy"
 license = "MIT"
 licenselink = "https://github.com/ddritzenhoff/ritzy/blob/main/LICENSE"
-description = "A clean, minimal portfolio theme for writers, developers, and creatives"
+description = "A bare-bones portfolio theme for bloggers"
+
 homepage = "https://github.com/ddritzenhoff/ritzy"
-tags = ["portfolio", "minimal", "clean", "responsive", "blog", "personal"]
-features = ["responsive", "blog", "portfolio", "clean", "minimal", "LaTeX support"]
-min_version = "0.41.0"
+
+demosite = "https://dominikritzenhoff.com
+
+tags = ["blog", "minimal", "clean", "personal"]
+features = ["blog", "clean", "minimal", "LaTeX support"]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.41.0"
 
 [author]
   name = "Dominik Ritzenhoff"

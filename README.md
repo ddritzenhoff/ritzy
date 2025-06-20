@@ -2,7 +2,7 @@
 
 A minimal blog theme for Hugo.
 
-![ritzy Theme Screenshot](images/homepage.png)
+![ritzy Theme Screenshot](images/screenshot.png)
 
 ## Features
 
